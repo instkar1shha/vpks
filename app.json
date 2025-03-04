@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "music-academy",
+    "slug": "music-academy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "entryPoint": "./index.ts",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.musicacademy.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b53adcfb-25cd-43a6-b45d-2c52637f3f94"
+      }
+    }
+  }
+}
